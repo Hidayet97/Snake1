@@ -23,9 +23,10 @@ namespace Snake1
             rightLine.Print();
 
             Point p = new Point(4, 5, '*');
-            p.Draw();
-           
-            Console.ReadLine();
+            Snake snake = new Snake(p, 4, Direction.UP);
+            snake.Print();
+
+        Console.ReadLine();
         }
     }
 }
